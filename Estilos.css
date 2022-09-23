@@ -1,3 +1,8 @@
+.header ul #aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
 body{
     margin: 0;
     font-family: sans-serif;
@@ -36,7 +41,7 @@ body{
     color: white;
     padding: 40px 0;
     height: 400px;
-    background-image: url(assets/imgs/bg-jelly-fish-para-home.png);
+    background-image: url(../Acquatec-css/imgs/bg-jelly-fish-para-home.png);
     background-size: cover;
 }
 
@@ -46,6 +51,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+a {
+    color: #e3b062;
+    text-decoration: none;
 }
 
 .banner p {
